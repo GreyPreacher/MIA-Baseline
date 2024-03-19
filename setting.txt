@@ -1,0 +1,1 @@
+python src/run.py --target_model Salesforce/codegen2-16B --ref_model codeparrot/codeparrot-small --key_name content
