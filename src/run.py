@@ -36,7 +36,7 @@ def calculatePerplexity_gpt3(prompt, modelname):
     prompt = prompt.replace('\x00','')
     responses = None
     # Put your API key here
-    openai.api_key = "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" # YOUR_API_KEY
+    openai.api_key = "" # YOUR_API_KEY
     while responses is None:
         try:
             responses = openai.Completion.create(
